@@ -150,9 +150,9 @@
       },
       {
         "id": 3,
-        "top": false,
+        "top": true,
         "width": "300",
-        "image": "/projects/sportzy1.png",
+        "image": "/projects/image123.png",
         "name": "Sportzy (E-Commerce)",
         "description": "Sportzy is a robust e-commerce platform built to cater to sports enthusiasts, offering dynamic product listing and real-time inventory management for a seamless shopping experience. The application features advanced functionality, including efficient product categorization, a streamlined add-to-cart process, and secure checkout options. Built with scalable architecture, SPortzy ensures optimal performance and reliability, even during peak traffic. Integrated payment gateways and user authentication systems enhance security, while an intuitive admin panel allows for easy product management, order tracking, and customer support",
         "stack": "Laravel, MySqli, HTML, CSS, Java Script, ",
