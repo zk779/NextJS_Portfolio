@@ -2,7 +2,7 @@
 ## Portfolio using Next.js and Tailwind CSS
 
 
-![Screenshot (55)](https://github.com/SyedMoin-lab/Portfolio-Next-JS-Tailwindcss/assets/63508680/332fbf56-8a53-4c9c-b0fc-cb2a494ce49f)
+![Screenshot (55)](/public/image.png)
 
 
 This is a portfolio template built using ReactJS with Next.js, Tailwind CSS, Firebase, and various other technologies. The purpose of this project is to showcase your skills and projects in a professional and visually appealing manner.
@@ -26,33 +26,6 @@ This is a portfolio template built using ReactJS with Next.js, Tailwind CSS, Fir
 - **Firebase Integration**: Utilizes Firebase services such as authentication, real-time database, or hosting for various functionalities within the portfolio.
 - **PWA Support**: Incorporates features to make the portfolio a progressive web app, enabling offline functionality and improved user experience.
 - **Easy Deployment**: Deploy your portfolio easily with Vercel.
-
-## Firebase Configuration
-
-Before running the application, you need to set up Firebase and obtain your Firebase configuration. Replace the placeholder values in `firebase.js` file with your Firebase configuration.
-
-```javascript
-// firebase.js
-
-import firebase from 'firebase/app';
-import 'firebase/firestore'; // Add other Firebase services that you want to use
-
-const firebaseConfig = {
-  apiKey: 'YOUR_API_KEY',
-  authDomain: 'YOUR_AUTH_DOMAIN',
-  projectId: 'YOUR_PROJECT_ID',
-  storageBucket: 'YOUR_STORAGE_BUCKET',
-  messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-  appId: 'YOUR_APP_ID'
-};
-
-if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-}
-
-export default firebase;
-```
-
 
 ## Deployment
 
