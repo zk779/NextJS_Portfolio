@@ -176,8 +176,7 @@
         "width": "300",
         "image": "/projects/Marham.png",
         "name": "Marham Clone",
-        "description": "This is a portfolio website for a travel and tourism company showcases a dynamic range of services and destinations. It features an intuitive design, engaging visuals, and user-friendly navigation to provide visitors with a seamless experience as they explore the company's offerings. The website highlights the company's expertise in curating unforgettable travel experiences, making it easy for potential clients to find and book their next adventure.",
-        "stack": "PHP, MySqli, HTML, CSS, JS, Jquery",
+        "description": "The Marham Clone project is a web-based platform designed to facilitate the process of scheduling doctor's appointments for users. The system allows users to register and browse through various categories of doctors. Users can then select a doctor based on their specialization and book an available appointment slot. On the other side, doctors can register, manage their appointments, and provide necessary recommendations or precautions to the patients.",
         "category": "Personal Project",
         "url": ""
       },
