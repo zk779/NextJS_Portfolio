@@ -36,7 +36,7 @@ AppShell.propTypes = {
 AppShell.defaultProps = {
   title: 'Zeeshan Khalid',
   description:
-    'I am a freelancer from India, who focuses on web development, especially frontend web development.',
+    'I am a freelancer from Pakistan, who focuses on web development, especially frontend web development.',
   keyword: '',
   hero: false,
   cta: true,
