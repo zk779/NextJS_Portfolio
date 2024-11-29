@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import Image from 'next/image';
-import ProjectDialog from './ProjectDialog'; // Import the slide dialog component
+import { useState } from "react";
+import Image from "next/image";
+import ProjectDialog from "./ProjectDialog"; // Import the slide dialog component
 
 const AppProject = ({ project }) => {
   console.log(project);
@@ -24,9 +24,14 @@ const AppProject = ({ project }) => {
           <h3 className="text-black text-base lg:text-xl font-semibold transition duration-300 hover:text-primary">
             {project.name}
           </h3>
-          {project.stack && <p className="text-gray text-xs">{project.stack}</p>}
+          {project.stack && (
+            <p className="text-gray text-xs">{project.stack}</p>
+          )}
         </div>
-        <div className="mx-auto" style={{ width: `${project.width}px`, margin: '0 auto' }}>
+        <div
+          className="mx-auto"
+          style={{ width: `${project.width}px`, margin: "0 auto" }}
+        >
           <Image
             src={project.image}
             alt={project.name}

@@ -100,18 +100,22 @@
             "id": 5,
             "timestamp": "APR 2024 - Current",
             "name": "X Logic Solutions",
-            "info": "Next JS/Laravel Developer",
-            "description": "Recently started working as a Software developer and worked in two major languages, Next JS and Laravel.",
-            "url": "https://wingstogrow.netlify.app/",
+            "info": "Shopify/Wrodpress Developer",
+            "description": "Been working as a CMS Developer and worked in two major frameworks of CMS,Shopify and Wordpres also have strong expertise for custom theme creation using liquid.",
             "list": [
               {
                 "id": 1,
-                "name": "In a Next.js project, I developed a real-time Campaign System that operates as a platform-based solution, featuring a modern, sleek design and a seamless user experience. The system includes real-world authentication mechanisms, such as OTP (One-Time Password) and email verification, ensuring secure and reliable user access.",
-                "level": "Intermediate"
+                "name": "In a Shopify project, I developed CASEDRIP, an e-commerce store specializing in sleek, high-quality mobile covers. The platform features an elegant design, secure payment options, and a smooth checkout process, ensuring an easy and enjoyable shopping experience for customers.",
+                "level": "Advanced"
               },
               {
                 "id": 2,
-                "name": "In a Laravel project, I developed SPortzy, an e-commerce platform for sports enthusiasts using MySQLi for efficient data management. The platform offers dynamic product listings, real-time inventory management, and secure checkout options. SPortzy ensures a seamless shopping experience and includes an intuitive admin panel for straightforward product and order management.",
+                "name": "In a Shopify project, I developed Zoo Fashions, a premium menswear retailer with over four decades of fashion expertise. The website offers a seamless shopping experience with a curated collection of global menswear brands, providing customers with an intuitive and stylish way to shop for luxury clothing online.",
+                "level": "Advanced"
+              },
+              {
+                "id": 3,
+                "name": "In a Shopify project, I developed Chic-Fits, an e-commerce store offering ready-made garments for kids and men. The platform features an intuitive design and easy navigation for browsing through stylish and comfortable apparel, providing a smooth and efficient online shopping experience.",
                 "level": "Intermediate"
               }
             ]

@@ -1,7 +1,7 @@
 {
   "name": "Zeeshan Khalid",
   "status": "Software Developer",
-  "description": "I am a dedicated Computer Science graduate with a passion for creating seamless digital experiences. As a Full Stack Developer, I am driven by the desire to turn innovative ideas into practical and elegant solutions..",
+  "description": "I am a dedicated Shopify Developer with a passion for creating seamless and user-friendly eCommerce experiences. With a strong background in web development, I am driven by the desire to turn innovative store concepts into practical, high-performing Shopify solutions.",
   "navigations": [
     {
       "id": 1,
@@ -36,8 +36,20 @@
   ],
   "services": [
     {
+      "id": 1,
+      "name": "Sopify Websites",
+      "description": "Developing a website appearance based on design into a website that can be use. With good performance",
+      "icon": "/services/service-website.svg"
+    },
+    {
+      "id": 1,
+      "name": "Wordpress Websites",
+      "description": "Developing a website appearance based on design into a website that can be use. With good performance",
+      "icon": "/services/service-website.svg"
+    },
+    {
       "id": 2,
-      "name": "Website dev",
+      "name": "Custom Website dev",
       "description": "Developing a website appearance based on design into a website that can be use. With good performance",
       "icon": "/services/service-website.svg"
     },
@@ -52,15 +64,34 @@
       "name": "Responsive design",
       "description": "Develop a good Frontend design for mobile, tablet, desktop and all screen devices",
       "icon": "/services/service-rwd.svg"
-    },
-    {
-      "id": 5,
-      "name": "Best Performance",
-      "description": "Develop a good Performance website and web application for more better experience",
-      "icon": "/services/service-performance.svg"
     }
   ],
   "skills": [
+    {
+      "id": 7,
+      "name": "Shopify",
+      "icon": "/skills/shopify.svg"
+    },
+    {
+      "id": 7,
+      "name": "Wordpress",
+      "icon": "/skills/wordpress.svg"
+    },
+    {
+      "id": 7,
+      "name": "Liquid JS",
+      "icon": "/skills/liquid.svg"
+    },
+    {
+      "id": 6,
+      "name": "Laravel",
+      "icon": "/skills/laravel-2.svg"
+    },
+    {
+      "id": 5,
+      "name": "PHP",
+      "icon": "/skills/php.svg"
+    },
     {
       "id": 7,
       "name": "React JS",
@@ -82,16 +113,6 @@
       "icon": "/skills/nodejs.png"
     },
     {
-      "id": 6,
-      "name": "Laravel",
-      "icon": "/skills/laravel-2.svg"
-    },
-    {
-      "id": 5,
-      "name": "PHP",
-      "icon": "/skills/php.svg"
-    },
-    {
       "id": 1,
       "name": "HTML 5",
       "icon": "/skills/skill-html5.svg"
@@ -100,26 +121,6 @@
       "id": 2,
       "name": "CSS 3",
       "icon": "/skills/skill-css3.svg"
-    },
-    {
-      "id": 4,
-      "name": "TailwindCss",
-      "icon": "/skills/skill-tailwindcss.svg"
-    },
-    {
-      "id": 11,
-      "name": "Github",
-      "icon": "/skills/skill-github.svg"
-    },
-    {
-      "id": 16,
-      "name": "Visual Studio Code",
-      "icon": "/skills/vscode.png"
-    },
-    {
-      "id": 9,
-      "name": "Firebase",
-      "icon": "/skills/skill-firebase.svg"
     }
   ],
   "project": {
@@ -130,23 +131,25 @@
         "id": 1,
         "top": false,
         "width": "300",
-        "image": "/projects/AlRayyan.png",
-        "name": "Al Rayyan Travels",
-        "description": "This is a portfolio website for a travel and tourism company showcases a dynamic range of services and destinations. It features an intuitive design, engaging visuals, and user-friendly navigation to provide visitors with a seamless experience as they explore the company's offerings. The website highlights the company's expertise in curating unforgettable travel experiences, making it easy for potential clients to find and book their next adventure.",
-        "stack": "React JS, CSS, Tailwind CSS",
-        "category": "Personal Project",
-        "url": ""
+        "image": "/projects/CaseDrip.png",
+        "image2": "/projects/CaseDrip2.png",
+        "name": "CASEDRIP",
+        "description": "CASEDRIP is an eCommerce website that specializes in selling sleek, high-quality mobile covers. The website showcases a wide variety of mobile case designs, with an easy-to-navigate layout and seamless shopping experience. Built on Shopify, the store features an elegant design, secure payment options, and smooth checkout process to enhance the customer experience. CASEDRIP offers its customers a modern and stylish selection of mobile accessories, making it easy for them to find the perfect case for their device.",
+        "stack": "Shopify",
+        "category": "Client Project",
+        "url": "https://casedrip.pk/"
       },
       {
         "id": 2,
         "top": false,
         "width": "300",
-        "image": "/projects/Airlines.png",
-        "name": "Arabian Adventure",
-        "description": "Arabian Adventure is a complete CRM & Comprehensive repository system for travel agency and supplier payment management system designed to streamline and automate the financial transactions between a company and its suppliers. The system allows users to manage supplier information, track sales data, and monitor payment statuses effectively.",
-        "stack": " PHP, MySqli, HTML, CSS, Java Script",
-        "category": "Personal Project",
-        "url": ""
+        "image": "/projects/Shopify1.png",
+        "image2": "/projects/Shopify2.png",
+        "name": "Zoo Fashions",
+        "description": "Zoo Fashions is a premium menswear retailer based in East London and Essex, with a legacy of over four decades in the fashion industry. Known for curating exceptional collections from global brands and rising designers, the website provides a seamless shopping experience for style-conscious men. The Shopify-based online store features high-resolution images, detailed product descriptions, and a user-friendly platform that makes browsing and purchasing luxury menswear effortless. Zoo Fashions is committed to providing a personalized, stylish experience, allowing customers to express their individuality through their wardrobe.",
+        "stack": "Shopify",
+        "category": "Client Project",
+        "url": "https://zoofashions.com/"
       },
       {
         "id": 3,
@@ -155,7 +158,7 @@
         "image": "/projects/image123.png",
         "name": "Sportzy (E-Commerce)",
         "description": "Sportzy is a robust e-commerce platform built to cater to sports enthusiasts, offering dynamic product listing and real-time inventory management for a seamless shopping experience. The application features advanced functionality, including efficient product categorization, a streamlined add-to-cart process, and secure checkout options. Built with scalable architecture, SPortzy ensures optimal performance and reliability, even during peak traffic. Integrated payment gateways and user authentication systems enhance security, while an intuitive admin panel allows for easy product management, order tracking, and customer support",
-        "stack": "Laravel, MySqli, HTML, CSS, Java Script, ",
+        "stack": "Shopify",
         "category": "Personal Project",
         "url": ""
       },
@@ -163,55 +166,13 @@
         "id": 4,
         "top": false,
         "width": "300",
-        "image": "/projects/MS_Traders.png",
-        "name": "A Complete POS System",
-        "description": "The Stock Management and Invoicing System is a comprehensive business management solution designed for local businesses. This project facilitates the efficient management of inventory, purchasing, sales, and invoicing. It empowers the business owner to keep track of product categories, available products, quantities, and detailed records of both purchases from manufacturers and sales to retailers or end customers.",
-        "stack": " PHP, MySqli, HTML, CSS, Java Script",
-        "category": "Personal Project",
-        "url": ""
-      },
-      {
-        "id": 5,
-        "top": false,
-        "width": "300",
-        "image": "/projects/Marham.png",
-        "name": "Marham Clone",
-        "description": "The Marham Clone project is a web-based platform designed to facilitate the process of scheduling doctor's appointments for users. The system allows users to register and browse through various categories of doctors. Users can then select a doctor based on their specialization and book an available appointment slot. On the other side, doctors can register, manage their appointments, and provide necessary recommendations or precautions to the patients.",
-        "category": "Personal Project",
-        "url": ""
-      },
-      {
-        "id": 6,
-        "top": false,
-        "width": "300",
-        "image": "/projects/Expense.png",
-        "name": "Expense/Budget Tracker",
-        "description": "The Expense/Budget Tracker is a web-based application designed to help users manage their expenses and budgets efficiently. Users can log in, create expense categories, set budgets for each category, and record their expenses. The system provides a detailed dashboard that displays essential information, including the available budget for each category and an overall summary of expenses and budgets.",
-        "stack": "React JS, CSS, Google API",
-        "category": "Personal Project",
-        "url": ""
-      },
-      {
-        "id": 7,
-        "top": true,
-        "width": "250",
-        "image": "/projects/Spis1.png",
-        "name": "Smartphone Inspection Services",
-        "description": "SPIS is a revolutionary mobile application designed to transform the way users buy and sell pre-owned smartphones. In this fast-paced digital era, where smartphones have become an essential part of our lives, making informed decisions while purchasing or selling a device is crucial. Our app aims to bridge the gap between buyers and sellers by providing a secure and reliable platform with comprehensive inspection services.",
-        "stack": "React Native, Node js, mongoDB, React JS, TailwindCSS",
-        "category": "Personal Project",
-        "url": ""
-      },
-      {
-        "id": 8,
-        "width": "250",
-        "top": true,
-        "image": "/projects/RealEstate.png",
-        "name": "Real Estate Mobile App",
-        "description": "The Real Estate Mobile App UI Design offers an intuitive and visually appealing experience for users seeking properties. It features dynamic property listings with high-resolution images, advanced filtering options, and interactive maps. The design ensures responsiveness across devices and smooth navigation for easy access to favorites and recent searches. Built with a user-centric approach and scalable architecture, the app supports seamless functionality and growth, enhancing the overall user experience in the real estate market.",
-        "stack": "Figma, UI, Web/Mobile Design",
-        "category": "Personal Project",
-        "url": ""
+        "image": "/projects/Shopify3.png",
+        "image2": "/projects/Shopify4.png",
+        "name": "Chic-Fits",
+        "description": "Chic-Fits is an eCommerce Shopify store offering a wide range of ready-made garments for kids and men. The website features a modern and user-friendly design, allowing customers to easily browse through categories, find stylish and comfortable clothing, and complete purchases with ease. From trendy kids' apparel to sophisticated men’s fashion, Chic-Fits provides a diverse selection of high-quality garments. The store's seamless online shopping experience ensures customers enjoy smooth navigation, secure payments, and fast delivery, making it the go-to destination for stylish, ready-to-wear fashion.",
+        "stack": "Shopify",
+        "category": "Client Project",
+        "url": "https://www.chic-fits.com/"
       }
     ]
   },
@@ -255,58 +216,58 @@
   },
   "about": {
     "title": "About",
-    "description": "Get acquainted further about me, story and biography of my life",
+    "description": "Get acquainted with my journey, skills, and aspirations as a Shopify and WordPress developer.",
     "contents": [
       {
         "id": 1,
         "name": "My History",
-        "description": "I am a Computer Science graduate with a strong foundation in both the MERN stack and PHP, specializing in full stack development. My academic journey has equipped me with analytical problem-solving skills and a deep understanding of software development best practices."
+        "description": "I am a dedicated Shopify and WordPress developer with a strong foundation in full-stack development. With over 3 years of experience, I specialize in creating seamless eCommerce stores on Shopify and customized websites on WordPress. My background in Computer Science, combined with my passion for building digital experiences, allows me to craft innovative and user-friendly solutions."
       },
       {
         "id": 2,
-        "name": "What am i Doing",
-        "description": "Currently, I am focused on building seamless digital experiences by leveraging my expertise in the MERN stack and PHP. I am passionate about transforming innovative ideas into efficient and elegant applications, and I thrive in collaborative, dynamic work environments."
+        "name": "What am I Doing",
+        "description": "Currently, I am focused on building responsive, high-performing eCommerce stores using Shopify and dynamic, content-driven websites with WordPress. I am passionate about turning innovative ideas into practical solutions, whether it’s for a sleek Shopify store or a custom WordPress site, and I enjoy collaborating with clients to achieve their digital goals."
       },
       {
         "id": 3,
         "name": "What Next",
-        "description": "I am eager to take on new challenges that allow me to further develop my skills and contribute to impactful projects. I aim to join a forward-thinking team where I can apply my technical expertise to create reliable and user-friendly solutions."
+        "description": "Looking ahead, I aim to expand my expertise in Shopify and WordPress development, exploring new features, themes, and integrations to stay ahead of the digital curve. I’m eager to tackle exciting challenges that allow me to create even more tailored, high-quality solutions and contribute to impactful projects."
       },
       {
         "id": 4,
         "name": "Dreams and Wishes",
-        "description": "My dream is to continuously evolve as a full stack developer and play a significant role in shaping the future of technology. I aspire to work on innovative projects that make a positive impact and to collaborate with like-minded professionals who share my passion for creating cutting-edge solutions."
+        "description": "My dream is to continue evolving as a specialist in both Shopify and WordPress development, helping businesses build exceptional online stores and websites. I aspire to collaborate with innovative teams and work on projects that push the boundaries of eCommerce and web development, leaving a lasting impact on the digital landscape."
       }
     ]
   },
   "resume": {
     "title": "Resume",
-    "description": "Explore my experiences, Rewards, and education, as well as my activeness",
+    "description": "Explore my experiences, rewards, education, and my active involvement in Shopify and WordPress development.",
     "contents": [
       {
         "id": 3,
-        "title": "Educational Level",
+        "title": "Educational Background",
         "contents": [
           {
             "id": 1,
             "timestamp": "2019 - 2023",
-            "name": "Bachelors in Computer Scinece",
-            "info": "NFC University Affiliated by UET Lahore.",
-            "description": "I hold a Bachelor of Technology in Mechatronics Engineering from REVA University, where I focused on coursework covering Data Structures, Algorithms, Machine Learning, Cloud Computing, and Object-Oriented Programming. Proficient in Python, C++, and JavaScript, I am equipped to excel in software development roles."
+            "name": "Bachelor of Computer Science",
+            "info": "NFC University, Affiliated with UET Lahore",
+            "description": "I earned my Bachelor's in Computer Science, focusing on Data Structures, Algorithms, Machine Learning, Cloud Computing, and Object-Oriented Programming. During my studies, I honed my skills in Python, C++, and JavaScript, equipping myself for software development roles and practical applications."
           },
           {
-            "id": 1,
+            "id": 2,
             "timestamp": "2017 - 2019",
-            "name": "FSc Pre Engineering",
+            "name": "FSc Pre-Engineering",
             "info": "Punjab College",
-            "description": "I am a graduate of Sri Chaitanya College of Education PU College, where I completed my pre-university education. My time at this esteemed institution provided me with a strong academic foundation and prepared me for further studies."
+            "description": "I completed my pre-university education at Punjab College, where I gained a solid foundation in core scientific and engineering principles, preparing me for higher education in Computer Science."
           },
           {
-            "id": 1,
+            "id": 3,
             "timestamp": "- 2017",
-            "name": "Matric",
+            "name": "Matriculation",
             "info": "Sandal College",
-            "description": "I am a graduate of Sri Chaitanya College of Education PU College, where I completed my pre-university education. My time at this esteemed institution provided me with a strong academic foundation and prepared me for further studies."
+            "description": "I graduated from Sandal College, where I completed my matriculation and developed a strong academic base in science and mathematics."
           }
         ]
       },
